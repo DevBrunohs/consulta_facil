@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cadastro Profissional</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="back" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+        <h1>Sobre o atendimento</h1>
+        
+
+        <h3>Detalhes do atendimento</h3>
+        <select class="espe">
+            <option>Defina a especialidade principal</option>
+        </select>
+        <br>
+        
+        <div class="preco">
+       <div class="cifrao">R$</div> 
+         <label  class="price" for=""><input type="price" name="price" id="price" placeholder="Informe o preço da consulta"></label>
+        </div>
+
+        <div class="consulta">
+            <br>
+            <p>Formas de pagamento da consulta*</p> 
+           <div class="checkbox" > <input type="checkbox" value="Dinheiro"> Dinheiro <br/></div>
+            <br>
+           <div class="checkbox"> <input  type="checkbox" value="Cartao" checked> Cartão</div>
+            <br>
+           <div class="checkbox"><input type="checkbox" value="Pix"> Pix <br/> 
+            <div class="parcelamento" >
+            <input type="radio" name='parcelamento' value="1"> Parcelamento em 1x sem juros <br>
+            <input type="radio" name='parcelamento' value="2"> Parcelamento em 2x sem juros <br>
+            <input type="radio" name='parcelamento' value="3"> Parcelamento em 3x sem juros
+            </div>
+            </div>
+        </div>
+
+        <img src="./IMG/desktop-pagina-2.png" alt="figura de um médico" class="medic">
+
+        <button class="next" value="verificar" >Próximo</button>
+        </div>
+    
+
+    
+
+</body>
+
+</html>

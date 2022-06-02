@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'open sans';
+}
+
+body {
+    background-color: #f8de40
+}
+
+.container {
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: auto;
+    width: 900px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: 5px 5px 15px -1px #282828;
+    box-shadow: 5px 5px 15px -1px #282828;
+    position: relative;
+
+}
+
+h1,
+h3 {
+    font-family: 'Comfortaa';
+    
+}
+
+h1{
+    color:#483698;
+    margin-top: 20px;
+    padding: 35px 0 10px 25px;
+    
+}
+
+h3{
+    padding: 20px 0 5px 20px;
+    font-size: 22px;
+}
+
+form {
+    position: relative;
+}
+
+label {
+    padding: 10px;
+    display: block;
+}
+
+input {
+    padding: 5px 5px;
+    border-radius: 4px;
+    border: 1px solid #483698;
+    outline: 0;
+}
+
+.error {
+    color:red;
+    
+}
+
+.name-input {
+    width: 300px;
+}
+
+.medic {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 40%;
+    top: 22%;
+    
+    
+}
+
+.state, .city{
+    margin-top:15px;
+    margin-left:5px;
+    padding: 5px 40px;
+    border-radius: 6px;
+    border: 1px solid #483698;
+    
+}
+
+.color-1, .color-2{
+    background-color: #483698;
+    display: inline;
+    width: 500px;
+}
+
+.color-2{
+    visibility:hidden;
+}
+
+.next {
+    font-family: comfortaa;
+    background-color: #483698;
+    color: #ffff;
+    display:block;
+    margin-top: 35px;
+    margin-left:35px;
+    padding: 1px 80px;
+    border: 0;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next:hover{
+    opacity: 0.8;
+    transition: 0.6s ease-in-out;
+}
+
+#back{
+    margin-top:20px;
+    background-color: #ffff;
+    color:#483698;
+    cursor: pointer;
+}
+
+#back:hover{
+    opacity: 0.4;
+}
+
+.cifrao{
+    font-family: "open sans";
+    background-color: #483698;
+    color:white;
+    padding:5px;
+    font-size: 20px;
+    border-radius:5px;
+    display: inline;
+    
+}
+
+.price{
+    display: inline;
+}
+
+.espe{
+    margin-top: 20px;
+    padding: 2px 45px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.consulta{
+    margin-top: 40px;
+}
+
+.preco{
+    margin-top:40px;
+}
+
+.checkbox{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    width: 350px;
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 10px 15px 1px rgba(0,0,0,0.4); 
+    box-shadow: 6px 10px 15px 1px rgba(0,0,0,0.4);
+    z-index: 2;
+}
+
+.parcelamento{
+    display: none;
+}
